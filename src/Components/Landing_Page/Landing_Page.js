@@ -1,10 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Navbar from '../Navbar/Navbar';
 import './LandingPage.css';
 
 const Landing_Page = ()=>{
   return (
     <div>
+        <Navbar />
         <section className="hero-section">
         <div>
           <div data-aos="fade-up" className="flex-hero">
