@@ -92,7 +92,10 @@
 /* Styles for button group in the signup form */
 .btn-group {
     margin-top: .0001px; /* Add a small top margin to button group */
-    margin-bottom: 20px; /* Add bottom margin to button group */
+    margin-bottom: 20px;
+    display:flex;
+    gap: 0.5em;
+    background-color: black; /* Add bottom margin to button group */
 }
 
 /* Styles for buttons in the signup form */

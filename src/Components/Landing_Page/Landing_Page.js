@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Outlet,Link} from 'react-router-dom'
 import Navbar from '../Navbar/Navbar';
 import './LandingPage.css';
 
@@ -27,9 +27,9 @@ const Landing_Page = ()=>{
               <h4>
                 Get your comprehensive health care tips and check ups across all specialties in just a few clicks.
               </h4>
-              <a href="#services">
+              <Link to="Sign_Up">
                 <button className="button">Get Started</button>
-              </a>
+              </Link>
                 
           </div>
   
