@@ -3,6 +3,7 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 import Sign_Up from '../Sign_Up/Sign_Up'
 function Navbar() {
+    const userName = sessionStorage.getItem("name");
   return (
     <div>
         <nav>
@@ -54,7 +55,7 @@ function Navbar() {
           {/*<!-- List item for the 'Login' link with a button -->*/}
           <li className="link">
             <Link to="Login">
-              <button className="btn1">Login</button>
+              <button className="btn1">{userName?"Login":"Logout"}</button>
             </Link>
           </li>
         </ul>

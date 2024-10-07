@@ -1,6 +1,6 @@
 /* Styles for the container element */
 .container {
-    max-width: 900px; /* Set maximum width for the container */
+    max-width: 400px; /* Set maximum width for the container */
     margin: 0 auto; /* Center the container horizontally */
     padding: 40px; /* Add padding inside the container */
     margin-top: 10%; /* Set top margin as a percentage of the viewport height */
@@ -27,7 +27,7 @@
 .signup-text {
     margin-top: 30px; /* Add top margin */
     grid-column: 1 / 4; /* Span across all three columns */
-    text-align: center; /* Center-align text */
+    text-align: start; /* Center-align text */
 }
 
 /* Styles for additional signup text */
@@ -56,7 +56,7 @@
 }
 
 /* Styles for the signup heading */
-.signup h1 {
+.signup-text h1 {
     margin-bottom: 20px; /* Add bottom margin to the heading */
     text-align: center; /* Center-align text */
     color: #3c79a7; /* Set text color */
@@ -92,10 +92,8 @@
 /* Styles for button group in the signup form */
 .btn-group {
     margin-top: .0001px; /* Add a small top margin to button group */
-    margin-bottom: 20px;
-    display:flex;
-    gap: 0.5em;
-    background-color: black; /* Add bottom margin to button group */
+    margin-bottom: 20px;/* Add bottom margin to button group */
+    display: flex;
 }
 
 /* Styles for buttons in the signup form */
