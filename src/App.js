@@ -4,12 +4,13 @@ import Landing_Page from './Components/Landing_Page/Landing_Page';
 import Sign_Up from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation'; 
+import DoctorCard from './Components/DoctorCard/DoctorCard';
 function App() {
   return (
     <div className='App'>
          {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
-           <Landing_Page />
+           <DoctorCard/>
            <Routes>
                {/* Set up the Routes for different pages */}
           <Route Home path='/'/>    
