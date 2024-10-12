@@ -3,7 +3,7 @@ import './InstantConsultation.css';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import FindDoctorSearchIC from './FindDoctorSearchIC/FindDoctorSearchIC';
 import DoctorCardIC from './DoctorCardIC/DoctorCardIC';
-import AppointmentFormIC from "./AppointmentFormIC/AppointmentFormIC";
+
 
 const InstantConsultation = () => {
     const [searchParams] = useSearchParams();

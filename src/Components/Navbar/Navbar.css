@@ -63,7 +63,7 @@ nav {
 
 /* Styling for the logo in the navbar */
 .nav__logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #0d213f;
     cursor: pointer;
@@ -87,13 +87,13 @@ nav {
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
 /* Styling for individual links in the navigation */
 .link a {
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     color: #0d213f;
     transition: 0.3s;
 }
