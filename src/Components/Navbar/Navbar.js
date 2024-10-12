@@ -58,6 +58,11 @@ function Navbar() {
               <button className="btn1">{userName?"Login":"Logout"}</button>
             </Link>
           </li>
+          <li className="InstantConsultation">
+            <Link to="Login">
+              <button className="btn1">Book A Doctor</button>
+            </Link>
+          </li>
         </ul>
     </nav>
     </div>
