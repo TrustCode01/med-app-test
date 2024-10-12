@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import Sign_Up from '../Sign_Up/Sign_Up'
+import InstantConsultation from '../InstantConsultationBooking/InstantConsultation'
 function Navbar() {
     const userName = sessionStorage.getItem("name");
   return (
@@ -49,7 +50,7 @@ function Navbar() {
           {/*<!-- List item for the 'Sign Up' link with a button -->*/}
           <li className="link">
             <Link to="Sign_Up">
-              <button class="btn1">Sign Up</button>
+              <button className="btn1">Sign Up</button>
             </Link>
           </li>
           {/*<!-- List item for the 'Login' link with a button -->*/}
@@ -58,9 +59,9 @@ function Navbar() {
               <button className="btn1">{userName?"Login":"Logout"}</button>
             </Link>
           </li>
-          <li className="InstantConsultation">
-            <Link to="Login">
-              <button className="btn1">Book A Doctor</button>
+          <li className="link">
+            <Link to="InstantConsultation">
+              <button className="btn1">Book Now</button>
             </Link>
           </li>
         </ul>
