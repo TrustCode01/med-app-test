@@ -60,7 +60,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="link">
-            <Link to="InstantConsultation">
+            <Link to="/instant-consultation">
               <button className="btn1">Book Now</button>
             </Link>
           </li>

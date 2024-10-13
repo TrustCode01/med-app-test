@@ -4,20 +4,20 @@ import Landing_Page from './Components/Landing_Page/Landing_Page';
 import Sign_Up from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation'; 
-import DoctorCard from './Components/DoctorCard/DoctorCard';
+import FindDoctorSearchIC from './Components/InstantConsultationBooking/FindDoctorSearchIC/FindDoctorSearchIC'
 function App() {
   return (
     <div className='App'>
          {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
-           <DoctorCard/>
+           <Landing_Page/>
            <Routes>
                {/* Set up the Routes for different pages */}
           <Route Home path='/'/>    
           <Route path="Sign_Up" element={<Sign_Up/>} />
           <Route path="Login" element={<Login />} />
-          <Route path="/InstantConsultation" element={<InstantConsultation />} />
-
+          <Route path="/instant-consultation" element={<InstantConsultation />} />
+          <Route path='FindDoctorSearchIC' element={<FindDoctorSearchIC/>}/>
       </Routes>
         </BrowserRouter>
 
