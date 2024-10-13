@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
          {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
-           <Landing_Page/>
+           <InstantConsultation/>
            <Routes>
                {/* Set up the Routes for different pages */}
           <Route Home path='/'/>    
