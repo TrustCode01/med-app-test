@@ -15,7 +15,7 @@ const FindDoctorSearchIC = () => {
     const handleDoctorSelect = (speciality) => {
         setSearchDoctor(speciality);
         setDoctorResultHidden(true);
-        navigate(`instant-onsultation?speciality=${speciality}`);
+        navigate(`instant-consultation?speciality=${speciality}`);
         window.location.reload();
     }
     return (
