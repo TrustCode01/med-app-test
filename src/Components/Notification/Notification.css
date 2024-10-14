@@ -8,4 +8,8 @@
     height: 400px;
     background-color: blue;
     color: white;
+    position: absolute;
+    top: 3vh;
+    left: 10vw;
+    
 }

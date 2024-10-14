@@ -55,9 +55,9 @@ const Notification = ({ children }) => {
               </p>
               <p><strong>Speciality:</strong> {doctorData?.speciality}</p>
               <p><strong>Name:</strong> {username}</p>
-              <p><strong>Phone Number:</strong> {}</p>
-              <p><strong>Date of Appointment:</strong>{date}</p>
-              <p><strong>Time Slot:</strong>{}</p>
+              <p><strong>Phone Number:</strong> {appointmentData?.phone}</p>
+              <p><strong>Date of Appointment:</strong>{appointmentData?.date}</p>
+              <p><strong>Time Slot:</strong>{appointmentData?.time}</p>
             </div>
           </div>
         </>

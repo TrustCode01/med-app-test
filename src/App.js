@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
          {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
-          <Notification />
+         <FindDoctorSearchIC />
            <Notification>
            <Routes>
                {/* Set up the Routes for different pages */}
