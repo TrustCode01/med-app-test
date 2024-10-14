@@ -1,16 +1,17 @@
 import React, {/*{useEffect}*/}from 'react';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Landing_Page from './Components/Landing_Page/Landing_Page';
 import Sign_Up from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation'; 
 import FindDoctorSearchIC from './Components/InstantConsultationBooking/FindDoctorSearchIC/FindDoctorSearchIC'
+import Notification from './Components/Notification/Notification';
 function App() {
   return (
     <div className='App'>
          {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
-           <InstantConsultation/>
+          <Notification />
+           <Notification>
            <Routes>
                {/* Set up the Routes for different pages */}
           <Route Home path='/'/>    
@@ -19,6 +20,7 @@ function App() {
           <Route path="/instant-consultation" element={<InstantConsultation />} />
           <Route path='FindDoctorSearchIC' element={<FindDoctorSearchIC/>}/>
       </Routes>
+      </Notification>
         </BrowserRouter>
 
       

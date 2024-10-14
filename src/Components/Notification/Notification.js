@@ -1,6 +1,7 @@
 // Following code has been commented with appropriate comments for your reference.
 import React, { useEffect, useState } from 'react';
 import Navbar from '../Navbar/Navbar';
+import AppointmentFormIC from '../InstantConsultationBooking/AppointmentFormIC/AppointmentFormIC';
 
 // Function component Notification to display user notifications
 const Notification = ({ children }) => {
@@ -54,9 +55,9 @@ const Notification = ({ children }) => {
               </p>
               <p><strong>Speciality:</strong> {doctorData?.speciality}</p>
               <p><strong>Name:</strong> {username}</p>
-              <p><strong>Phone Number:</strong> {phone}</p>
+              <p><strong>Phone Number:</strong> {}</p>
               <p><strong>Date of Appointment:</strong>{date}</p>
-              <p><strong>Time Slot:</strong>{time}</p>
+              <p><strong>Time Slot:</strong>{}</p>
             </div>
           </div>
         </>
