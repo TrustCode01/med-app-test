@@ -5,12 +5,13 @@ import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation'; 
 import FindDoctorSearchIC from './Components/InstantConsultationBooking/FindDoctorSearchIC/FindDoctorSearchIC'
 import Notification from './Components/Notification/Notification';
+import ReviewForm from './Components/ReviewForm/ReviewForm'
 function App() {
   return (
     <div className='App'>
          {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
-         <FindDoctorSearchIC />
+         <ReviewForm />
            <Notification>
            <Routes>
                {/* Set up the Routes for different pages */}

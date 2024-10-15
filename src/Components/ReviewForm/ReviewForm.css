@@ -1,0 +1,19 @@
+.form-container{
+    margin-top: 7em;
+    text-align: center;
+}
+
+.form{
+    margin-top: 6em;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 1em;
+    box-shadow: 4px 4px 4px grey;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+.form-toggler{
+    margin-top: 2em;
+    width: 50vw;
+    margin-left:25vw ;
+}
